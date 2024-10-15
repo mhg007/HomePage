@@ -1,0 +1,100 @@
+.ant-menu-light .ant-menu-item-selected {
+  background-color: #008000 !important; /* Green background for selected item */
+  color: black !important; /* Black text color for the selected item */
+}
+
+.ant-menu-light .ant-menu-item:hover {
+  background-color: #008000 !important; /* Light blue hover color */
+  color: black !important; /* Black text color for the selected item */
+}
+
+.ant-menu-light .ant-menu-item-active {
+  background-color: #008000 !important; /* Light blue hover color */
+  color: black !important; /* Black text for active (focused) menu item */
+}
+.ant-layout-header {
+  background: white;
+}
+
+.ant-layout-header {
+  background: white;
+}
+.ant-menu-title-content:hover {
+  border-bottom: "2px solid #000";
+}
+
+/* Menu Style */
+/* Default color for menu items */
+.custom-menu .ant-menu-item {
+  color: black !important;
+}
+
+/* Hover state: Change color to white */
+.custom-menu .ant-menu-item:hover span{
+  color: white !important;
+}
+
+/* Selected item: Make it white */
+.custom-menu .ant-menu-item-selected span{
+  color: white !important;
+}
+
+/* Active item: Keep it white */
+.custom-menu .ant-menu-item:active {
+  color: white !important;
+}
+
+/* Focused item: Keep it white */
+.custom-menu .ant-menu-item:focus {
+  color: white !important;
+}
+
+.custom-menu span.ant-menu-title-content:hover{
+    color: white;
+}
+
+/* Carousal Style */
+.carousel-container {
+  padding: 0 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: black;
+  z-index: 1;
+  cursor: pointer;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.7
+  );
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px; 
+}
+
+.carousel-container .ant-carousel .slick-prev,
+.carousel-container .ant-carousel .slick-next {
+  display: none; 
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: fill;
+}

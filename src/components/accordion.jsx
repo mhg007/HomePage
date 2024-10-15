@@ -3,12 +3,17 @@ import { CaretRightOutlined } from "@ant-design/icons";
 import { Collapse, theme } from "antd";
 import { Typography } from "antd";
 const { Title, Text } = Typography;
+const style = {
+  padding:"0 24px",
+  textAlign: "justify",
+  display: "block"
+}
 const getItems = (panelStyle) => [
   {
     key: "1",
     label: <Title level={4}>A Little History</Title>,
     children: (
-      <Text strong>
+      <Text style={style}>
         Shikarpur Sessions court came into being on 1st December 1978. It was
         curved out of Judicial District Sukkur.It consists upon four Talukas
         viz. Shikarpur,Garhi Yasin, Khanpur and Lakhi Ghulam Shah. There are one
@@ -45,7 +50,7 @@ const getItems = (panelStyle) => [
     key: "2",
     label: <Title level={4}>Administration</Title>,
     children: (
-      <Text strong>
+      <Text style={style}>
         Every organization needs to have a strong administration system to carry
         out its daily business; and Sessions Court, Shikarpur is no exception.
         We have a very well defined administration setup, divided into several
@@ -59,7 +64,7 @@ const getItems = (panelStyle) => [
     key: "3",
     label: <Title level={4}>Courts in the District</Title>,
     children: (
-      <Text strong>
+      <Text style={style}>
         For the administration of justice, 16 Courts of Law are establised in
         District Head Quarter in Shikarpur and 04 Courts of law are established
         in the 03 Talukas of District. Every court has its own jurisdiction
@@ -73,7 +78,7 @@ const getItems = (panelStyle) => [
     key: "4",
     label: <Title level={4}>Family Court</Title>,
     children: (
-      <Text strong>
+      <Text style={style}>
         Section 4 of the West Pakistan Family Courts Act, 1964 provides that the
         family Courts established under Section 3 shall have exclusive
         jurisdiction to entertains
@@ -85,7 +90,7 @@ const getItems = (panelStyle) => [
     key: "5",
     label: <Title level={4}>Consumer Court</Title>,
     children: (
-      <Text strong>
+      <Text style={style}>
         Newly Established Consumer Court establshed since 12th January 2019.
       </Text>
     ),
@@ -95,7 +100,7 @@ const getItems = (panelStyle) => [
     key: "6",
     label: <Title level={4}>History of Judicial District Shikarpur</Title>,
     children: (
-      <Text strong>
+      <Text style={style}>
         Shikarpur Sessions court came into being on 1st December 1978. It was
         curved out of Judicial District Sukkur.It consists upon four Talukas
         viz. Shikarpur,Garhi Yasin, Khanpur and Lakhi Ghulam Shah. There are One

@@ -7,9 +7,9 @@ const CustomCard = () => (
     style={{
       width: 240,
     }}
-    cover={<img alt="example" src="https://picsum.photos/100/100" />}
+    cover={<img alt="Judge" src="images/pexels-august-de-richelieu-4427610.jpg" style={{objectFit:"cover"}} />}
   >
-    <Meta title="Europe Street beat" description="www.instagram.com" />
+    <Meta title="August De Richelieu" description="Magistrate" />
   </Card>
 );
 export default CustomCard;
