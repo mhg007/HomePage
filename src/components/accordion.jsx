@@ -14,7 +14,7 @@ const getItems = (panelStyle) => [
     label: <Title level={4}>A Little History</Title>,
     children: (
       <Text style={style}>
-        Shikarpur Sessions court came into being on 1st December 1978. It was
+        Mirpurkhas Sessions court came into being on 1st December 1978. It was
         curved out of Judicial District Sukkur.It consists upon four Talukas
         viz. Shikarpur,Garhi Yasin, Khanpur and Lakhi Ghulam Shah. There are one
         court of District and Sessions Judge, five Courts of Additional District
